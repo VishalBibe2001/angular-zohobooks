@@ -1,0 +1,63 @@
+<div class="row justify-content-center">
+    <div class=" col-md-4 add-model">
+        <div class="card card-outline-secondary">
+            <div class="card-body ">
+                <form >
+
+                    <div class="row mb-3">
+                        <label for="modelname" class="col-m-4 col-form-label">Vendor Name</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" formControlName="modelname" required>
+                            <div class="invalid-feedback">
+                                Vendor Name is required.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <label for="modelyear" class="col-m-4 col-form-label">Bill#</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" formControlName="modelyear" required>
+                            <div class="invalid-feedback">
+                                Enter Bill#
+                            </div>
+                        </div>
+                    </div>
+
+        
+                    <div class="row mb-3">
+                        <label for="storage" class="col-m-4 col-form-label">Order Number</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" formControlName="storage" required>
+                            <div class="invalid-feedback"> Enter Order Number</div>
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <label for="color" class="col-m-4 col-form-label">Bill Date</label>
+                        <div class="col-sm-10">
+                            <input type="date" class="form-control" formControlName="color" required>
+                            <div class="invalid-feedback">
+                                Enter Bill Date</div>
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <label for="color" class="col-m-4 col-form-label">Due Date</label>
+                        <div class="col-sm-10">
+                            <input type="date" value="2022-06-04" class="form-control" formControlName="color" required>
+                            <div class="invalid-feedback">
+                                Enter Due Date</div>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary ">Create Bill</button>
+                </form>
+
+            </div>
+
+
+        </div>
+
+    </div>
+</div>

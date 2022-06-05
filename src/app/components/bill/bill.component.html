@@ -1,0 +1,11 @@
+<!-- <p>bill works!</p> -->
+<p></p>
+<button mat-raised-button color="primary" class="model-signup-home signup" [routerLinkActive]="'active'"
+  routerLink="addNewbill">Add New Bill
+</button>
+<p *ngIf="Bill.length <= 0" class="no-data text-center">
+  There is no any bill creates,</p>
+<h1 class="no-data text-center"> Please Create the Bill</h1>
+
+
+<router-outlet></router-outlet>
